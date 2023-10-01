@@ -1,55 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-}
-
-
-/* estilização da parte de cima do meu header */
-.nav-parte-Cima{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.nav-parte-Cima > img{
-    display: flex;
-    margin: 15px 0;
-    width: 339px;
-}
-
-.nav-parte-Cima > input{
-    height: 32px;
-}
-
-.nav-parte-Cima > a{
-    color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-a:hover{
-    color: brown;
-}
-
-
-/* estilização da nav  */
-nav > ul{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.opcoes{
-    color: black;
-    text-decoration: none; 
-}
-
 /* estilização da main */
 
 /* estilização da sessão banner*/
@@ -81,19 +29,4 @@ article > a{
     background-color: rgb(168, 166, 166);
 
     margin: 15px 0;
-}
-
-/* estilização do rodapé  */
-footer{
-    background-color: rgb(240, 171, 171);
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer > img{
-    margin: 20px 0;
-    width: 339px;
 }
